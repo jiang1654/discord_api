@@ -56,7 +56,7 @@ class DiscordClient {
         'response_type': 'code',
         'client_id': clientId,
         'scope': scopesSet.join(' '),
-        'redirect_uri': redirectUri,
+//         'redirect_uri': redirectUri,
         //'state': generateState() ?
       },
     );
